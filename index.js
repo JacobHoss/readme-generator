@@ -1,7 +1,7 @@
 const generateMarkdown = require("./utils/generateMarkdown.js")
 
 const inquirer = require("inquirer");
-const fs = require('fs');
+const fs = require("fs");
 
 const questions = [
     {
@@ -25,10 +25,30 @@ const questions = [
       name: "description"
     },
     {
+      type: "input",
+      message: "How do you install your application?",
+      name: "installation"
+    },
+    {
+      type: "input",
+      message: "Provide instructions and examples for use.",
+      name: "usage"
+    },
+    {
       type: "list",
-      message: "What kind of pizza?",
-      name: "pizza",
-      choices: ["Pineapple", "Bacon", "Mushroom"]
+      message: "What kind of License was used for your project?",
+      name: "license",
+      choices: ["MIT", "Apache", "EPL 2.0", "LGPL_2_1", "Artistic-2.0"]
+    },
+    {
+      type: "editor",
+      message: "Who were the contributors?",
+      name: "contributors"
+    },
+    {
+      type: "input",
+      message: "Explain how different tests can be run on the application.",
+      name: "tests"
     }
   ]
 
@@ -58,3 +78,12 @@ function init() {
 // function call to initialize program
 init();
 
+// MIT LICENSE: https://img.shields.io/npm/l/express
+
+// APACHE LICENSE: https://img.shields.io/aur/license/android-studio
+
+// EPL 2.0: https://img.shields.io/eclipse-marketplace/l/notepad4e
+
+// lgpl_2_1: https://img.shields.io/cpan/l/Config-Augeas
+
+// artistic-2.0: https://img.shields.io/badge/license-artistic--2.0-green
