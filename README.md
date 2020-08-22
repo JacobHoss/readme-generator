@@ -4,13 +4,13 @@
   This project uses ES6 Javascript classes, Node, and Inquirer to generate a professional HTML webpage for a Software-Engineer team. 
    
   ## Table of Contents:
-  [Installation](#installation)
-  [Usage](#usage)
-  [Credits](#credits)
-  [License](#license)
-  [Contributing](#contributing)
-  [Tests](#tests)
-  [Questions](#questions)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Credits](#credits)
+  * [License](#license)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
 
   ## Installation
   Run NPM Install.
