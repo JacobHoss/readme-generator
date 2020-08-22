@@ -1,7 +1,7 @@
-# README GENERATOR
+# HTML Generator for Software Teams
   
   ## Description:
-  A node based application that is used to generate a professional looking README
+  This project uses ES6 Javascript classes, Node, and Inquirer to generate a professional HTML webpage for a Software-Engineer team. 
    
   ## Table of Contents:
   [Installation](#installation)
@@ -13,21 +13,25 @@
   [Questions](#questions)
 
   ## Installation
-  Run NPM Install in the Integrated Terminal
+  Run NPM Install.
 
   ## Usage
-  Type in all the information that it is requesting in inquirer.
+  Answer everything in Inquirer.
 
   ## License
-  [![License](https://img.shields.io/badge/license-artistic--2.0-green)](https://opensource.org/licenses/Artistic-2.0)
+  [![License](https://img.shields.io/npm/l/express)](https://opensource.org/licenses/MIT)
 
   ## Contributing
-  Jacob
+  JACOB HOSS
 
   ## Tests 
-  Not applicable for this particular project.
+  There are four different tests that you can run in the application. They are found in the "tests" folder.
 
   ## Questions
   Visit my Github page [jacobhoss](https://github.com/jacobhoss)
   For any questions, please contact me at jacobhenryhoss2@gmail.com 
+
+  ## Watch the Video Demonstration!
+
+  [![Watch the video](https://img.youtube.com/vi/m5XivCIaGSk/maxresdefault.jpg)](https://youtu.be/m5XivCIaGSk)
   
